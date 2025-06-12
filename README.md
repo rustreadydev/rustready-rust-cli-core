@@ -23,43 +23,39 @@ Includes argument parsing, configuration management, logging, and error handling
 
 ## Installation
 1. clone or download the template:
-    '''bash
-    git clone https://github.com/yourusername/rust-cli-template.git 
-    cd rustready-rust-cli-template
+   git clone https://github.com/rustreadydev/rustready-rust-cli-core
+2. cd rustready-rust-cli-template
+3. cargo build
 
-INSTALL DEPENDENCIES:
-
-cargo build
-
-USAGE:
+## Usage
 
 Run the CLI with: Cargo run -- --help (To see all commands)
 
-EXAMPLE COMMANDS:
+Example Commands
 
 cargo run -- run Alice  (Output: Hello, Alice! Config updated. Can change Alice to a different name if you want.)
 
 cargo run -- version  (To check current version) 
 
-CONFIGURATION:
+## Configuration
 
 The template uses a JSON config file (templents/config.json) to store persistant data.
 
 Specify a custom config path with --config  (cargo run -- --config custom.json run Bob)
 
-CUSTOMIZATION:
+## Customization
 
 To add a new command:
 1. Edit src/cli.rs to define a new subcommand in the Command enu.
 2. Update src/main.rs to handle new subcommand.
 3. See templates/example.rs for an example implementation.
 
-CONTRIBUTING:
+## Contributating
 
 This project is open-source under the MIT License. 
 Pull requests welcome! See CONTRIBUTING.md.
 
-PREMIUM VERSION:
+## Premium version
 
 Want More Features?
 
@@ -79,7 +75,7 @@ Check out premium template rustready-rust-cli-premium with advance features like
 
 * And shell completions
 
-* Available at [your-gumroad-link.]
+* Available at: Coming Soon!
 
 SUPPORT: 
 
