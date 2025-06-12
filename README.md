@@ -75,7 +75,7 @@ Check out premium template rustready-rust-cli-premium with advance features like
 
 * And shell completions
 
-* Available at: Coming Soon!
+* Available at: https://rustreadydev.gumroad.com/l/rustready-rust-cli-premium
 
 SUPPORT: 
 
