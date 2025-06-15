@@ -23,9 +23,9 @@ Includes argument parsing, configuration management, logging, and error handling
 
 ## Installation
 1. clone or download the template:
-   git clone https://github.com/rustreadydev/rustready-rust-cli-core
-2. cd rustready-rust-cli-core
-3. cargo build
+- https://github.com/rustreadydev/rustready-rust-cli-core
+3. cd rustready-rust-cli-core
+4. cargo build
 
 ## Usage
 
